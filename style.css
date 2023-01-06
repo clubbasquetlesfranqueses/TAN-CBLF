@@ -83,8 +83,8 @@ li {
   }
 
   #pavello {
-    flex-wrap: wrap;
-    font-size: 12px;
+    display: flex;
+    justify-items: center;
     list-style: none;
     clear: both;
   }
