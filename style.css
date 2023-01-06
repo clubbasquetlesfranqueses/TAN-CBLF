@@ -82,10 +82,12 @@ li {
     border-radius: 10px;
   }
 
-footer {
+  #pavello {
     display: flex;
-    align-items: center; 
-}
+    justify-content: space-evenly;
+    list-style: none;
+    clear: both;
+  }
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
