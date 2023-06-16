@@ -84,7 +84,7 @@ li {
 
   #pavello {
     display: flex;
-    font-size: 12px;
+    font-size: 10px;
     justify-items: center;
     list-style: none;
     clear: both;
