@@ -28,6 +28,11 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+.titulo {
+    display: flex;
+    flex-direction: column;
+}
+
 header div {
     display: flex;
     align-items: center;
@@ -38,6 +43,7 @@ header div img {
     padding-top: 5px;
     padding-left: 5px;
     height: 50px;
+    width: auto;
     float: left;
 }
 
@@ -49,7 +55,7 @@ main img {
 
 header div h1 {
     padding-left: 30px;
-    font-size: 20px;
+    font-size: 15px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -59,7 +65,7 @@ header hr {
     margin-bottom: 10px;
 }
 
-ul {
+.menug {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -74,27 +80,148 @@ li {
     margin-left: 5px;
 }
 
-  a {
+a {
     color: black;
     text-decoration: none;
-    padding: 8px;
+    padding: 10px;
     background-color: rgb(0, 200, 0);
-    border-radius: 10px;
-  }
+    border-radius: 30px;
+    border: 2px solid black;
+}
 
-  #pavello {
+#pavello {
     display: flex;
     font-size: 10px;
     justify-items: center;
     list-style: none;
     clear: both;
-  }
+}
 
-  #fotos {
+#fotos {
     flex-wrap: wrap;
     display: flex;
     justify-content: center;
-  }
+}
+
+.menug {
+    display: flex;
+    flex-direction: column;
+}
+
+.menug li {
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#indexinici {
+    padding-left: 148px;
+    padding-right: 148px;
+    font-size: 50px;
+}
+
+#indexcalendari {
+    padding-left: 95px;
+    padding-right: 95px;
+    font-size: 50px;
+}
+
+#indexresultats {
+    padding-left: 100px;
+    padding-right: 100px;
+    font-size: 50px;
+}
+
+#indexreglament {
+    padding-left: 29px;
+    padding-right: 29px;
+    font-size: 50px;
+}
+
+#mainresultats {
+    clear: both;
+    display: flex;
+}
+
+#mainresultats {
+    display: flex;
+    flex-direction: column;
+}
+
+.liresultats{
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.aresultats {
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 50px;
+}
+
+#verdeclaro {
+    background-color: greenyellow;
+    padding-left: 60px;
+    padding-right: 60px
+}
+
+#amarillo {
+    background-color: yellow;
+    padding-left: 68px;
+    padding-right: 68px
+}
+
+#rojo{
+    background-color: red;
+    padding-left: 125px;
+    padding-right: 125px;
+    color: white;
+
+}
+
+#negro {
+    background-color: black;
+    color: white;
+}
+
+#verdeoscuro {
+    background-color: darkgreen;
+    padding-left: 55px;
+    padding-right: 55px;
+    color: white;
+}
+
+#rosa {
+    background-color: pink;
+    padding-left: 45px;
+    padding-right: 45px
+}
+
+#celeste {
+    background-color: aqua;
+    font-size: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#naranja {
+    background-color: orange;
+    padding-left: 110px;
+    padding-right: 110px;
+}
+
+.h2reglament {
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.lireglament {
+    font-size: 20px;
+}
+
+#infoimportant {
+    color: blue;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -110,8 +237,6 @@ li {
     .col-xs-10 {width: 83.33%;}
     .col-xs-11 {width: 91.66%;}
     .col-xs-12 {width: 100%;}
-    
-    
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -172,7 +297,6 @@ li {
         clear: both;
         margin-top: 20px;
     }
-
 }
   
 /* Large devices (laptops/desktops, 992px and up) */
@@ -190,7 +314,6 @@ li {
     .col-lg-10 {width: 83.33%;}
     .col-lg-11 {width: 91.66%;}
     .col-lg-12 {width: 100%;}
-
 }
   
   /* Extra large devices (large laptops and desktops, 1200px and up) */
